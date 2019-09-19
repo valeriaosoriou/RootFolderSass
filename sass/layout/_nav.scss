@@ -1,0 +1,31 @@
+/*MENU*/
+nav ul {
+	/* Here we use flex and justify-content: space-between; to create an evenly */
+	/* Spread horizontal nav menu */
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 1.5em;
+	list-style: none;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.nav-bar {
+	background-color: $color01;
+}
+
+/*HAMB ICON*/
+.menu-hamb{
+	font-size: 10vw;
+	color: $color03;
+
+}
+/*LOGO*/
+.img-logo{
+	width: 40%;
+
+}

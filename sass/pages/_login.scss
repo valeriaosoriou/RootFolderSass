@@ -1,0 +1,33 @@
+.body-login{
+	background-color: $color01;
+}
+.img-login{
+	width: 100%;
+	vertical-align: middle;
+	margin-top: 50px;
+}
+//LOGIN FORM
+.form-login{
+	position: relative;
+	padding: 20px 20px;
+	margin-top: 70px;
+	margin-bottom: 110px;
+	text-align: center;
+	
+}
+.form-input{
+	width: 80%;
+	height: 34px;
+	font-size: 14px;
+	margin-bottom: 10px;	
+}
+
+.btn-login{
+	position: relative;
+	width: 80%;
+	height: 34px;
+	color: $color04;
+	background-color: $color02;	
+	font-size: 16px;
+}
+

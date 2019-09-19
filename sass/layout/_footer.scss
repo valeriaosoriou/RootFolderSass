@@ -1,0 +1,37 @@
+/*.footer{
+	position: relative;
+	bottom: 5px;
+	right: 20px;
+	float: right;
+	margin-top: 100px;
+	color: $color02;
+	font-size: 30px;
+	//background-color: none;
+}
+
+.lang-txt{
+	font-family: 'arial'; //no me lo cambia
+	color: $color03;
+	font-size: 20px;
+}*/
+
+/*FOOTER*/
+footer{
+	height: 38px;
+	background-color: none;
+	font-size: 5vw;
+	color: $color02;
+	padding: 0px 25px;	
+
+}
+
+.footer-icon{
+	position: relative;
+	float: right;	
+}
+
+.footer-txt_english{
+	position: relative;
+	float: right;
+	color: $color03;
+}

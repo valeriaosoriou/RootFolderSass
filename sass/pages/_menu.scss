@@ -1,0 +1,22 @@
+.column-left_menu{
+	float: left;
+	width: 50%;
+}
+
+.column-right_menu{
+	float: left;
+	width: 50%;
+}
+
+.row-menu:after{
+	content: "";
+  	display: table;
+  	clear: both;
+}
+
+/*list style*/
+.list-menu{
+	color: $color03;
+	margin-left: 20px;
+	font-size: 25px;
+}

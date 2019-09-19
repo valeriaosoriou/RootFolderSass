@@ -1,10 +1,25 @@
-@import 'base/base';
-@import 'variables/colors';
-@import 'variables/mediaqueries';
 
+@import 'variables/_colors';
+@import 'variables/_mediaqueries';
+
+@import 'base/_fonts';
+//@import 'base/_reset'; this is sending error, not sure why....
+@import 'base/_base';
+
+@import 'layout/_header';
+@import 'layout/_nav';
+@import 'layout/_footer';
+
+@import 'components/_switches';
+@import 'components/_title&toggle';
 //Pages
-@import '';
-@import '';
-@import '';
-@import '';
-@import '';
+@import 'pages/_login.scss';
+@import 'pages/_account.scss';
+@import 'pages/_cameras.scss';
+@import 'pages/_climate.scss';
+@import 'pages/_lighting.scss';
+@import 'pages/_menu.scss';
+@import 'pages/_contact.scss';
+
+
+

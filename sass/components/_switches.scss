@@ -1,0 +1,38 @@
+/*SWITCHES TITLES*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  background-color: $color07;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.switch::after {
+  content: '';
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  border-radius:50%;
+  background-color: $color03;
+  top: 1px;
+  left: 1px;
+  transition: all 0.3s;
+}
+
+.checkbox:checked + .switch::after {
+  left: 20px;
+}
+.checkbox:checked + .switch {
+  background-color: $color04;
+}
+.checkbox {
+  display: none;
+}
+
+/*Main switch*/
+.main-toggle{
+  float: right;
+  margin-right: 30px;
+}

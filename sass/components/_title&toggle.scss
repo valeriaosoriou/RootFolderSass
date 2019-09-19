@@ -1,0 +1,23 @@
+/*Title and toggle*/
+.column-title_left{
+	float: left;
+	width: 50%;
+}
+
+.column-title_right{
+	float: left;
+	width: 50%;
+	padding-top: 38px;
+}
+.row-one:after{
+	content: "";
+  	display: table;
+  	clear: both;
+}
+.title-english{
+	color: $color03;
+	padding-left: 20px;
+	padding-top: 20px;
+	font-variant: small-caps;
+	font-size: 40px;
+}

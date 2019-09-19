@@ -1,0 +1,32 @@
+/*ROOMS*/
+.container-climate{
+	height: 375px;
+}
+
+.column-left_room{
+	float: left;
+	width: 50%;
+}
+
+.column-right_toggle{
+	float: left;
+	width: 50%;
+}
+
+.row-two_rooms:after{
+	content: "";
+  	display: table;
+  	clear: both;
+}
+
+/*TXT rooms*/
+.list-txt{
+	color: $color03;
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+.list-toggle{
+	float: right;
+	margin-right: 30px;
+}
